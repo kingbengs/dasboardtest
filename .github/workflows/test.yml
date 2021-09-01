@@ -11,7 +11,7 @@ on:
 
 jobs:
   scan:
-    name: npm install
+    name: npm install --save err
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
